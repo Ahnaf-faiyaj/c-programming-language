@@ -1,0 +1,22 @@
+.range-box{
+    position: relative;
+    width: 90%;
+}
+
+#slider{
+    width: 100%;
+}
+
+#showValue{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background: red;
+    color: white;
+
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
